@@ -19,7 +19,7 @@ Fibonacci函数的4种实现方式：
 - 命令式
 - 函数式
 - 普通递归
-- 记忆化递归。
+- 记忆化递归
 
 其中，记忆化递归需要复用普通递归的代码，并且测试记忆化递归比普通递归执行速度快。
 
@@ -27,23 +27,19 @@ Fibonacci函数的4种实现方式：
 
 **设计要求**
 
-好的代码质量
+- 好的代码质量
 
-轻量化设计
+- 轻量化设计
 
-最少的代码
-
-自动测试
-
-代码覆盖
-
-持续集成
-
-尽可能地复用代码
+- 最少的代码
+- 自动测试
+- 代码覆盖
+- 持续集成
+- 尽可能地复用代码
 
 
 
-## What you can learn
+## What You Can Learn
 
 
 
@@ -107,11 +103,11 @@ clone这个repo
 https://github.com/shizhengLi/TDD_Fibonacci.git
 ```
 
-运行
+运行构建
 
 ```bash
 cd TDD_Fibonacci/TDD_Fibonacci
 ./gradlew
 ```
 
-查看code coverage在：`/TDD_Fibonacci/build/reports/jacoco/test/html/index.html` （注：先run之后才能出现build文件夹）
+查看code coverage在：`/TDD_Fibonacci/build/reports/jacoco/test/html/index.html` （注：先构建之后才能出现build文件夹）
